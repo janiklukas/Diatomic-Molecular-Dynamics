@@ -24,7 +24,6 @@ where $r_{ij}=|\textbf{r}_j-\textbf{r}_i|$.
 
 To improve performance, the system is divided into $N_c^2$ cells and force calculations for non-adjacent particles are skipped. If the cell size is larger than about $3a$, the force is sufficiently weak to be ignored further away. 
 
-To make the grid calculations more convenient, $N_c$ must be odd. %? 
 The cells are labeled with a pair of integers, starting with $(1,1)$ in the bottom left corner. After each evolution step, we determine which grid cell each particle falls into. Then we calculate the acceleration each particle $i$ experiences due to the particles in adjacent cells.
 
 ## Wall Forces
