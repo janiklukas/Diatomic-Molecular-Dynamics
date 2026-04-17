@@ -6,7 +6,7 @@ In this project the 2D motion of $N$ interacting, diatomic molecules in a square
 
 We use the following potential between two particles a distance $r$ apart:
 
-$$V(r)=\frac{V_0}{2}[b-c(\frac{r}{ar_0})^2] \exp[-(\frac{r}{ar_0})^2]$$
+$$V(r)=\frac{V_0}{2}[b-c(r/ar_0)^2] \exp[-(r/ar_0)^2]$$
 
 The characteristic energy $V_0$ and distance $r_0$ are used as basic units in the following. The (dimensionless) parameters $a>0$ , $b\geq 0$ and $c\geq 0$ control the interaction range, the height of the central maximum and the depth of the minimum respectively.
 
@@ -18,7 +18,7 @@ From here, we use the following basic units of measurement:
 
 In these units, the force on atom $i$ due to atom $j$ is given by
 
-$$\textbf{F}_\text{I}(\textbf{r}_i,\textbf{r}_j)=\frac{1}{a^2}[c(\frac{r_{ij}}{a})^2-(b+c)]\exp[-(\frac{r_{ij}}{a})^2] (\textbf{r}_j-\textbf{r}_i)$$
+$$\textbf{F}_\text{I}(\textbf{r}_i,\textbf{r}_j)=\frac{1}{a^2}[c(r_{ij}/a)^2-(b+c)]\exp[-(r_{ij}/a)^2] (\textbf{r}_j-\textbf{r}_i)$$
 
 where $r_{ij}=|\textbf{r}_j-\textbf{r}_i|$.
 
