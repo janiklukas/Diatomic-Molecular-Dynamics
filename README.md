@@ -18,7 +18,7 @@ From here, we use the following basic units of measurement:
 
 In these units, the force on atom $i$ due to atom $j$ is given by
 
-$$\textbf{F}_\text{I}(\textbf{r}_i,\textbf{r}_j)=\frac{1}{a^2}\left[c\left(\frac{r_{ij}}{a}\right)^2-(b+c)\right]\exp\left[-\left(\frac{r_{ij}}{a}\right)^2\right](\textbf{r}_j-\textbf{r}_i)$$
+$$\textbf{F}_\text{I}(\textbf{r}_i,\textbf{r}_j)=\frac{1}{a^2}\left[c\left(\frac{r_{ij}}{a}\right)^2-(b+c)\right]\exp \left[-\left(\frac{r_{ij}}{a}\right)^2\right] (\textbf{r}_j-\textbf{r}_i)$$
 
 where $r_{ij}=|\textbf{r}_j-\textbf{r}_i|$.
 
